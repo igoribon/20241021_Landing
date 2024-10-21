@@ -1,0 +1,62 @@
+/* Codigo de la pagina para que empiece justo arriba del todo*/
+* {padding: 0;
+    margin: 0;}
+
+ a {text-decoration: none;
+    color: rgb(14, 173, 139);}
+         
+ ul {list-style: none;
+     margin-right: 0rem;}
+ 
+     
+/* Código página en desktop */
+
+header {min-height: 7rem;
+    background-color: rgb(33, 33, 56);
+    display: flex;
+    justify-content: space-around;
+}
+
+header div {width: 45%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;}
+
+
+header ul {
+    display: flex;
+        justify-content:space-around;
+        align-items: center;
+    padding-top: 2.5rem;}
+header ul li{width: 30%;
+}
+
+header a {color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }
+
+.paddingStart {padding-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main div {text-align: center;
+    padding-top: 5rem;
+padding-bottom: 5rem;
+}
+
+h1 {font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+padding-top: 2rem;
+    color: white;}
+
+h2 {font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;}
+
+p {font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+color: white;}
+
+.divColor {color:white;
+    background-color: rgb(14, 173, 139);}
