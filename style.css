@@ -18,6 +18,7 @@ header {min-height: 7rem;
     justify-content: space-around;
     position: fixed;
     width: 100%;
+    align-items: center;
 }
 
 header div {width: 45%;
@@ -29,24 +30,23 @@ header ul {
     display: flex;
         justify-content:space-around;
         align-items: center;
-    padding-top: 2.5rem;}
+    }
+
 header ul li{width: 30%;
-}
+}   
 
 header a {color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     }
 
-.paddingStart {padding-top: 2rem;
-    font-size: 1.5rem;
-    text-align: center;
-}
+
 main {padding-top: 7rem;}
 main div {text-align: center;
     padding-top: 5rem;
-padding-bottom: 5rem;
-}
+    padding-bottom: 5rem;
+    }
+
 
 h1 {font-size: 4rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,21 +61,64 @@ p {font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 color: white;}
 
+div img {border-radius: 0.8rem;
+    margin: 1rem;
+     }
+
+/* Las características de los elementos del formulario */
+form {width: 40rem;
+    display: flex;
+    flex-direction: column;}
+
+form input {height: 4rem;
+            width: 40rem;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            text-align: start;
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;}
+
+button {width: 12rem;
+            height: 4rem;
+            background-color:rgb(14, 173, 139);
+            color: white;
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            border-radius: 0.5rem;
+            border-color: white;
+            border-style: solid;}
+
+
+
+
+/* Aquí están las clases de toda la web */
+.paddingStart {font-size: 1.5rem;
+            text-align: center;
+            }
+
 .divColor {color:white;
-    background-color: rgb(14, 173, 139);
+    background-color: rgb(14, 173, 139);}
  
 .divColor2 {
     color: rgb(33, 33, 56);
-    background-color:  white;
-}
+    background-color:  white;}
+
+.negritaFooter {font-weight: bolder;
+            }
+
+.normalFooter {font-size: 1rem;}
+
+
 section {display: flex;
         justify-content: center;}
+
+footer section article p {text-align: center; margin: 1.5rem;}
 
 article {width: 20%;
         text-align: left;
         margin: 2rem;}
 
 
-.button {}
-main>div>img {border-radius: 5%;
-        margin: 1rem;}
+
